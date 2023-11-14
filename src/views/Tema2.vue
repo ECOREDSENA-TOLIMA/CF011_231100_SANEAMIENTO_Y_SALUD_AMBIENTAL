@@ -15,6 +15,9 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 El monitoreo de la calidad del aire desempeña un papel esencial en la gestión ambiental y la toma de decisiones. Permite recopilar información valiosa para analizar, interpretar y presentar resultados, lo que, a su vez, facilita la corrección de procesos y la reprogramación de actividades. Este proceso continuo tiene varios propósitos, entre ellos:
     .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imagen decorativa')
       .col-lg-6
         ul.lista-ul
           li 
@@ -50,9 +53,7 @@
           li 
             i.lista-ul__vineta
             | Evaluar la efectividad de las medidas de control implementadas en una región específica.
-      .col-lg-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imagen decorativa')
+      
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p De acuerdo con el protocolo para el monitoreo y seguimiento de la calidad del aire (MAVDT, 2008), se utilizan varios instrumentos para llevar a cabo el monitoreo.
@@ -67,6 +68,7 @@
         p El procedimiento en el monitoreo manual es el siguiente:
     
     SlyderB.color-acento-botones.mb-5.p-5(:datos="datosSlyderEjemplo")(style="background-color:#EEFFDE")
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p El monitoreo manual es una herramienta valiosa para evaluar la calidad del aire y la presencia de contaminantes específicos en áreas de interés. Proporciona datos precisos y detallados que son fundamentales para la protección de la salud pública y el medio ambiente.
@@ -80,18 +82,18 @@
       .col-lg-12
         p El monitoreo automático de la calidad del aire es un proceso altamente eficiente que utiliza equipos y sistemas automáticos para tomar muestras y analizar la calidad del aire en el lugar de muestreo, eliminando la necesidad de enviar muestras a un laboratorio. Aquí se resumen los puntos clave de esta metodología:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema2/img19.svg' alt='AvatarTop')
-          .tarjeta.color-secundario
+          .tarjeta.color-primario
             .mt-3
             .p-4
               ol.lista-ol.lista-ol--separador
                 li
                   span.text-bold a) Toma de información automatizada:
                   | el proceso de monitoreo automático utiliza equipos y sistemas automáticos para recopilar datos en tiempo real en el sitio de muestreo. Estos equipos pueden medir una variedad de contaminantes atmosféricos, como material particulado, óxidos de azufre, óxidos de nitrógeno, ozono, monóxido de carbono, hidrocarburos metánicos y no metánicos.
-      .col-lg-10
+      .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema2/img20.svg' alt='AvatarTop')
@@ -102,18 +104,18 @@
                 li
                   span.text-bold b)	Análisis in #[i situ]:
                   | la ventaja principal del monitoreo automático es que los instrumentos pueden analizar directamente las muestras en el lugar de muestreo, lo que elimina la necesidad de enviar muestras a un laboratorio y reduce significativamente el tiempo necesario para obtener resultados.
-      .col-lg-10
+      .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema2/img21.svg' alt='AvatarTop')
-          .tarjeta.color-secundario
+          .tarjeta.color-primario
             .mt-3
             .p-4
               ol.lista-ol.lista-ol--separador
                 li
                   span.text-bold c)	Procesamiento de información y reporte
                   | después de recopilar los datos, se realiza el procesamiento de la información de manera automática. Esto incluye la calibración y aseguramiento de la calidad de los datos. Los resultados se generan en tiempo real y se pueden informar de manera instantánea.
-      .col-lg-10
+      .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema2/img22.svg' alt='AvatarTop')
@@ -204,7 +206,7 @@
         p Al mantener la misma velocidad y condiciones, el muestreo isocinético proporciona una representación precisa de la cantidad de contaminantes en la corriente de aire tal como se emiten normalmente. Esto es fundamental para evaluar el cumplimiento de las regulaciones ambientales y determinar si una fuente de emisión cumple con los límites permisibles de emisión de material particulado.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-md-4.mb-4.mb-md-0
-        .titulo-sexto.color-acento-contenido.offset-1
+        .titulo-sexto.color-acento-contenido
           h5 Figura 2.
           span  #[i Explicación de la palabra isocinético]
     .row.justify-content-center.align-items-center.mb-5
@@ -216,22 +218,27 @@
           img(src='@/assets/curso/temas/tema2/img23_1.svg', alt='En la figura 2, se muestra la explicación de los componentes de la palabra isocinético, iso que significa igual y cinético que hace referencia al movimiento.')
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
-        figure
-          img(src='@/assets/curso/temas/tema2/img24.png', alt='')
-      .col-lg-9
-        p El proceso de muestreo isocinético para la determinación de material particulado en fuentes fijas implica los siguientes pasos:
+      .col-lg-12
+      p El proceso de muestreo isocinético para la determinación de material particulado en fuentes fijas implica los siguientes pasos:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
         .cajon.color-secundario.p-4.mb-4
-          ol.lista-ol
-            li
-              span.text-bold a)	Obtención de material particulado isocinéticamente:
-              | se recoge el material particulado (partículas sólidas o líquidas suspendidas en el aire) de la fuente de emisión utilizando un sistema que asegura que la velocidad de captura sea igual o similar a la velocidad a la que las partículas se emiten desde la fuente.
-            li
-              span.text-bold b)	Colección en un filtro de fibra de vidrio: 
-              | el material particulado capturado se deposita en un filtro de fibra de vidrio. Este filtro se mantiene a una temperatura específica de 120 ± 14 °C para evitar la presencia de humedad que podría alterar la muestra.
-            li
-              span.text-bold c)	Determinación por gravimetría:
-              | el filtro con el material particulado se pesa antes y después de la colección. La diferencia de peso entre el filtro limpio y el filtro con el material capturado se utiliza para calcular la cantidad de material particulado presente en la muestra. Esta es una técnica de análisis gravimétrico que permite cuantificar la concentración de material particulado en la fuente de emisión.
+          .row.justify-content-center.align-items-center
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema2/img25.jpg', alt='')
+            .col-lg-7                
+              ol.lista-ol
+                li
+                  span.text-bold a)	Obtención de material particulado isocinéticamente:
+                  | se recoge el material particulado (partículas sólidas o líquidas suspendidas en el aire) de la fuente de emisión utilizando un sistema que asegura que la velocidad de captura sea igual o similar a la velocidad a la que las partículas se emiten desde la fuente.
+                li
+                  span.text-bold b)	Colección en un filtro de fibra de vidrio: 
+                  | el material particulado capturado se deposita en un filtro de fibra de vidrio. Este filtro se mantiene a una temperatura específica de 120 ± 14 °C para evitar la presencia de humedad que podría alterar la muestra.
+                li
+                  span.text-bold c)	Determinación por gravimetría:
+                  | el filtro con el material particulado se pesa antes y después de la colección. La diferencia de peso entre el filtro limpio y el filtro con el material capturado se utiliza para calcular la cantidad de material particulado presente en la muestra. Esta es una técnica de análisis gravimétrico que permite cuantificar la concentración de material particulado en la fuente de emisión.
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p En resumen, el muestreo isocinético es un método preciso para la recolección de material particulado en fuentes fijas, y la gravimetría se utiliza para determinar cuánto material particulado se emite de la fuente. Este proceso es esencial para evaluar y controlar las emisiones de partículas sólidas o líquidas en el aire y garantizar que cumplan con las regulaciones ambientales.
@@ -305,7 +312,7 @@
         P Es un sistema diseñado para captar gases contaminantes utilizando una solución química absorbente. El proceso de muestreo se realiza de la siguiente manera:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .cajon.color-secundario.p-4.mb-4
+        .cajon.color-primario.p-4.mb-4
           ol.lista-ol
             li
               span.text-bold a)	Boquilla:
@@ -333,7 +340,7 @@
               | este componente es responsable de la medición de la concentración de gases contaminantes en la muestra.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img18.jpg')})`}"
           )
@@ -389,7 +396,7 @@
               .col-lg-12
                 h3(style="color:#264100").mt-2 b)	Sector privado
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-7
         ul.lista-ul
           li 
             i.lista-ul__vineta
@@ -411,12 +418,10 @@
           li 
             i.lista-ul__vineta
             | #[b Métodos indirectos:] estos métodos se basan en información general sobre procesos o equipos, utilizando factores de emisión y balances de masa para estimar las emisiones.
-      .col-lg-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img24.png', alt='')
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
         p La estimación de emisiones es esencial para el desarrollo de políticas ambientales, el control de la contaminación y el cumplimiento de regulaciones, tanto para el sector público como el privado. Permite tomar decisiones informadas y aplicar medidas efectivas para reducir la contaminación atmosférica y proteger la salud pública.
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/temas/tema2/img26.jpg', alt='')        
 </template>
 
 <script>
@@ -442,7 +447,7 @@ export default {
       {
         titulo: 'Instalación de equipos de muestreo',
         texto:
-          'Colocar equipos específicos, como muestreadores de aire, colectores de partículas, o dispositivos para capturar gases y compuestos químicos, en los sitios de muestreo seleccionados',
+          'Colocar equipos específicos, como muestreadores de aire, colectores de partículas, o dispositivos para capturar gases y compuestos químicos, en los sitios de muestreo seleccionados.',
         imagen: require('@/assets/curso/temas/tema2/img5.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

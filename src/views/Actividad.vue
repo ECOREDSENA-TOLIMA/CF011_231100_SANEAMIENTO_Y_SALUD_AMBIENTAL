@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Contaminantes y monitoreo.
+          h2 Contaminantes y monitoreo
         p.mb-4 #[b Objetivo:] afianzar los conocimientos del componente denominado contaminantes atmosféricos y monitoreo de calidad de aire.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

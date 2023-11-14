@@ -35,7 +35,7 @@
         p Según sus características pueden ser fuentes naturales o fuentes antropogénicas y de acuerdo con su movimiento pueden ser fuentes fijas o fuentes móviles, como se muestra a continuación:
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.col-md-4.mb-4.mb-md-0
+      .col-lg-12.col-md-4.mb-4.mb-md-0
         .titulo-sexto.color-acento-contenido.offset-1
           h5 Figura 1.
           span  #[i  Imágenes utilizadas por el SGA con indicaciones de peligro]
@@ -107,9 +107,9 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img8.svg' alt='AvatarTop')
-          .tarjeta.color-secundario
+          .tarjeta.color-primario
             .p-4
-              h2 Erupciones volcánicas
+              h4 Erupciones volcánicas
               p.text-normal Las erupciones volcánicas liberan grandes cantidades de gases y partículas en la atmósfera, lo que puede tener un impacto significativo en la calidad del aire a nivel regional.
       .col-lg-6
         .tarjeta-avatar-b.mb-5
@@ -117,15 +117,15 @@
             img(src='@/assets/curso/temas/tema1/img9.svg' alt='AvatarTop')
           .tarjeta.color-secundario
             .p-4
-              h2 Polvo del desierto
+              h4 Polvo del desierto
               p.text-normal Las tormentas de polvo en regiones desérticas pueden transportar partículas finas a largas distancias, lo que afecta la calidad del aire en áreas circundantes.
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img10.svg' alt='AvatarTop')
-          .tarjeta.color-secundario
+          .tarjeta.color-primario
             .p-4
-              h2 Incendios forestales
+              h4 Incendios forestales
               p.text-normal Los incendios forestales naturales pueden liberar partículas y gases, incluyendo dióxido de carbono y monóxido de carbono, en la atmósfera.
       
       .col-lg-6
@@ -134,7 +134,7 @@
             img(src='@/assets/curso/temas/tema1/img11.svg' alt='AvatarTop')
           .tarjeta.color-secundario
             .p-4
-              h2 Emisiones biogénicas
+              h4 Emisiones biogénicas
               p.text-normal Las emisiones naturales de gases como el terpeno de las plantas también pueden contribuir a la formación de partículas y compuestos orgánicos volátiles en la atmósfera.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -151,9 +151,9 @@
         p A toda sustancia introducida generalmente producto de las actividades humanas y cuya presencia puede tener efectos nocivos para la salud o el ambiente, es lo que se conoce como contaminantes atmosféricos.
         p Según la Organización Mundial de la Salud (OMS, 2019) se consideran contaminantes atmosféricos a las siguientes sustancias:
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-12.col-md-4.mb-4.mb-md-0
-        .titulo-sexto.color-acento-contenido.offset-1
+        .titulo-sexto.color-acento-contenido
           h5 Tabla 1.
           span  #[i  Contaminantes atmosféricos ]
     .row.justify-content-center.align-items-center.mb-5
@@ -364,13 +364,13 @@
       .col-lg-12
         p Los niveles permitidos, o niveles máximos permisibles de contaminantes, se refieren a las concentraciones de sustancias contaminantes a las que las personas y el medio ambiente pueden estar expuestas sin que su salud e integridad se vean afectadas negativamente. Valores por encima de estos niveles pueden ser perjudiciales tanto para la salud humana como para el ambiente. La Resolución 2254 de 2017 en Colombia establece estos niveles máximos permisibles para diversos contaminantes atmosféricos, proporcionando pautas claras para la protección de la salud pública y la conservación del medio ambiente. Estos estándares son fundamentales para garantizar un ambiente sano y seguro para la población y minimizar los riesgos asociados con la contaminación del aire, como se muestra en la siguiente tabla:
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-12.col-md-4.mb-4.mb-md-0
-        .titulo-sexto.color-acento-contenido.offset-1
+        .titulo-sexto.color-acento-contenido
           h5 Tabla 2.
           span  #[i  Niveles máximos permisibles de contaminantes atmosféricos]
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.desktop
+      .col-lg-8.desktop
         .tabla-d
           table(border=1)
             thead(style="background-color:#FFAE7E;")
@@ -424,24 +424,27 @@
         p Además, es importante destacar las consecuencias para aquellos que no se adhieren a estas medidas y emiten contaminantes más allá de los límites permitidos. Las sanciones y medidas preventivas, que van desde amonestaciones escritas hasta multas sustanciales y la posibilidad de cierre temporal o definitivo de la actividad, son fundamentales para hacer cumplir las regulaciones ambientales y garantizar la protección del medio ambiente y la salud pública. En el contexto de la regulación de emisiones contaminantes en Colombia, es esencial comprender que:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-10
         .cajon.color-secundario.p-4.mb-4
-          ul.lista-ul
-            li 
-              i.lista-ul__vineta
-              | #[b Permisos y licencias:] los permisos y licencias emitidos por la autoridad ambiental son herramientas clave para controlar y supervisar las emisiones de contaminantes en diversas actividades industriales y comerciales. Estos permisos aseguran que se cumplan los estándares de emisión y los límites de contaminación.
-            li 
-              i.lista-ul__vineta
-              | #[b Prohibiciones:] algunas actividades, como las quemas de bosques naturales, quemas industriales de combustibles fósiles y la incineración de sustancias peligrosas, están prohibidas y no pueden obtener permisos, ya que representan un alto riesgo para el medio ambiente y la salud humana.
-            li 
-              i.lista-ul__vineta
-              | #[b Sanciones y medidas preventivas:] para quienes no cumplan con las regulaciones y emitan contaminantes más allá de los límites permitidos, se aplican sanciones y medidas preventivas. Estas pueden incluir multas significativas, la posibilidad de cierre temporal o definitivo de la actividad y, en casos graves, la revocación de licencias ambientales.
-            li 
-              i.lista-ul__vineta
-              | #[b Objetivo de protección ambiental:] la finalidad de estas regulaciones es proteger el medio ambiente y la salud pública. La emisión descontrolada de contaminantes atmosféricos puede tener graves consecuencias en términos de calidad del aire y salud de la población, por lo que es esencial establecer estándares y aplicar medidas para minimizar estos riesgos.
-      .col-lg-3
-        figure
-          img(src='@/assets/curso/temas/tema1/img19.png', alt='Imagen decorativa')
+          .row.justify-content-center.align-items-center
+            .col-lg-4 
+              figure
+                img(src='@/assets/curso/temas/tema1/img19_1.jpg', alt='Imagen decorativa')
+            .col-lg-7
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    | #[b Permisos y licencias:] los permisos y licencias emitidos por la autoridad ambiental son herramientas clave para controlar y supervisar las emisiones de contaminantes en diversas actividades industriales y comerciales. Estos permisos aseguran que se cumplan los estándares de emisión y los límites de contaminación.
+                  li 
+                    i.lista-ul__vineta
+                    | #[b Prohibiciones:] algunas actividades, como las quemas de bosques naturales, quemas industriales de combustibles fósiles y la incineración de sustancias peligrosas, están prohibidas y no pueden obtener permisos, ya que representan un alto riesgo para el medio ambiente y la salud humana.
+                  li 
+                    i.lista-ul__vineta
+                    | #[b Sanciones y medidas preventivas:] para quienes no cumplan con las regulaciones y emitan contaminantes más allá de los límites permitidos, se aplican sanciones y medidas preventivas. Estas pueden incluir multas significativas, la posibilidad de cierre temporal o definitivo de la actividad y, en casos graves, la revocación de licencias ambientales.
+                  li 
+                    i.lista-ul__vineta
+                    | #[b Objetivo de protección ambiental:] la finalidad de estas regulaciones es proteger el medio ambiente y la salud pública. La emisión descontrolada de contaminantes atmosféricos puede tener graves consecuencias en términos de calidad del aire y salud de la población, por lo que es esencial establecer estándares y aplicar medidas para minimizar estos riesgos.
+      
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Estos permisos son esenciales para que tanto personas naturales como jurídicas puedan llevar a cabo actividades, obras y servicios, ya sean de carácter público o privado, sin sobrepasar los límites permitidos de emisiones contaminantes. Las actividades que requieren de estos permisos incluyen:
@@ -491,25 +494,28 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Por otro lado, existen actividades prohibidas para las cuales no se pueden tramitar permisos. Estas actividades incluyen:
+    
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9
+      .col-lg-10
         .cajon.color-secundario.p-4.mb-4
-          ul.lista-ul
-            li 
-              i.lista-ul__vineta
-              | Quemas de bosques naturales y de vegetación protectora, quema de combustibles fósiles utilizados por el parque automotor, quema industrial o comercial de combustibles fósiles, y quemas abiertas controladas en zonas rurales.
-            li 
-              i.lista-ul__vineta
-              | La incineración o quema de sustancias, residuos y desechos tóxicos peligrosos.
-            li 
-              i.lista-ul__vineta
-              | Actividades industriales que generen o usen sustancias sujetas al control del Protocolo de Montreal.
-            li 
-              i.lista-ul__vineta
-              | Canteras y plantas trituradoras de materiales de construcción.
-      .col-lg-3
-        figure
-          img(src='@/assets/curso/temas/tema1/img20.png', alt='Imagen decorativa')
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img20_1.jpg', alt='Imagen decorativa')
+            .col-lg-7        
+              ul.lista-ul
+                li 
+                  i.lista-ul__vineta
+                  | Quemas de bosques naturales y de vegetación protectora, quema de combustibles fósiles utilizados por el parque automotor, quema industrial o comercial de combustibles fósiles, y quemas abiertas controladas en zonas rurales.
+                li 
+                  i.lista-ul__vineta
+                  | La incineración o quema de sustancias, residuos y desechos tóxicos peligrosos.
+                li 
+                  i.lista-ul__vineta
+                  | Actividades industriales que generen o usen sustancias sujetas al control del Protocolo de Montreal.
+                li 
+                  i.lista-ul__vineta
+                  | Canteras y plantas trituradoras de materiales de construcción.      
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Quienes no cumplan con las medidas y emitan emisiones que superen los límites permitidos, sin contar con el respectivo permiso, estarán sujetos a medidas preventivas que incluyen amonestaciones escritas. Además, si se comprueba daño o peligro para los recursos naturales o la salud humana, o si la actividad se inicia sin el permiso requerido, se puede llegar a la suspensión de la actividad. En tales casos, se inicia un proceso sancionatorio ambiental que implica la imposición de sanciones, como multas diarias de hasta cinco mil (5.000) salarios mínimos mensuales legales vigentes, cierre temporal o definitivo del establecimiento, revocatoria o caducidad de la licencia ambiental, autorización, concesión, permiso o registro, demolición de obra a costa del infractor y trabajo comunitario.

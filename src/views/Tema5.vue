@@ -6,12 +6,14 @@
       .titulo-principal__numero
         span 5
       h1 Química de combustión
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/tema5/img1.jpg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 La combustión es una reacción exotérmica que libera calor y, en ocasiones, luz, y puede involucrar materia en distintos estados. Estas reacciones generalmente generan energía térmica y lumínica, produciendo compuestos como dióxido de carbono y vapor de agua. La combustión es un tipo de reacción de óxido-reducción (redox), en la cual un reactivo se oxida, perdiendo electrones, mientras que el otro se reduce, ganando electrones. En esta reacción, el oxígeno, como agente oxidante, adquiere electrones del agente reductor, que es el combustible.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/temas/tema5/img1.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 La combustión es una reacción exotérmica que libera calor y, en ocasiones, luz, y puede involucrar materia en distintos estados. Estas reacciones generalmente generan energía térmica y lumínica, produciendo compuestos como dióxido de carbono y vapor de agua. La combustión es un tipo de reacción de óxido-reducción (redox), en la cual un reactivo se oxida, perdiendo electrones, mientras que el otro se reduce, ganando electrones. En esta reacción, el oxígeno, como agente oxidante, adquiere electrones del agente reductor, que es el combustible.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p En la vida cotidiana, podemos observar procesos de combustión en diversas situaciones, como:
@@ -21,56 +23,32 @@
         .row.justify-content-center.mb-3
           .col-8
             img.mb-4(src='@/assets/curso/temas/tema5/img2.svg' alt='AvatarTop')
-            h4.text-center 
-              ul.lista-ul
-                li 
-                  i.lista-ul__vineta
-                  | Encendido de un fósforo.
+            h4.text-center Encendido de un fósforo
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img.mb-4(src='@/assets/curso/temas/tema5/img3.svg' alt='AvatarTop')         
-            h4.text-center 
-              ul.lista-ul
-                li 
-                  i.lista-ul__vineta
-                  | Estufas domésticas de gas.
+            h4.text-center Estufas domésticas de gas
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img.mb-4(src='@/assets/curso/temas/tema5/img4.svg' alt='AvatarTop')         
-            h4.text-center 
-              ul.lista-ul
-                li 
-                  i.lista-ul__vineta
-                  | Motores de combustión interna.
+            h4.text-center Motores de combustión interna
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img.mb-4(src='@/assets/curso/temas/tema5/img5.svg' alt='AvatarTop')        
-            h4.text-center 
-              ul.lista-ul
-                li 
-                  i.lista-ul__vineta
-                  | Hidróxidos de materia orgánica.
+            h4.text-center Hidróxidos de materia orgánica
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img.mb-4(src='@/assets/curso/temas/tema5/img6.svg' alt='AvatarTop')         
-            h4.text-center 
-              ul.lista-ul
-                li 
-                  i.lista-ul__vineta
-                  | Disparo de un arma.
+            h4.text-center Disparo de un arma
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img.mb-4(src='@/assets/curso/temas/tema5/img7.svg' alt='AvatarTop')         
-            h4.text-center 
-              ul.lista-ul
-                li 
-                  i.lista-ul__vineta
-                  | Incendios forestales.
+            h4.text-center Incendios forestales
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p La combustión es un proceso que implica la reacción exotérmica de combustibles, sustancias que pueden arder y liberar energía en forma de calor. Algunos ejemplos de combustibles comunes incluyen:

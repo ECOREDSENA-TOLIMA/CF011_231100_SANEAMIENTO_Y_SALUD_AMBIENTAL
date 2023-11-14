@@ -12,7 +12,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-md-4.mb-4.mb-md-0
-        .titulo-sexto.color-acento-contenido.offset-1
+        .titulo-sexto.color-acento-contenido
           h5 Figura 3.
           span  #[i Características de los refrigerantes]
     .row.justify-content-center.align-items-center.mb-5
@@ -28,7 +28,7 @@
         p La elección del refrigerante adecuado es crucial para lograr un rendimiento óptimo y minimizar el consumo de energía en los sistemas de refrigeración. Por lo tanto, los ingenieros y diseñadores de sistemas de refrigeración deben considerar cuidadosamente las propiedades del refrigerante y su compatibilidad con los componentes del sistema para lograr un funcionamiento eficiente y duradero. Además, teniendo en cuenta las preocupaciones ambientales, es importante utilizar refrigerantes que no dañen la capa de ozono y no contribuyan al calentamiento global.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-md-4.mb-4.mb-md-0
-        .titulo-sexto.color-acento-contenido.offset-1
+        .titulo-sexto.color-acento-contenido
           h5 Figura 4.
           span  #[i Características de los aceites lubricantes]
     .row.justify-content-center.align-items-center.mb-5
