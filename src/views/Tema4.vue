@@ -8,7 +8,7 @@
       h1 Meteorología
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left") 
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema4/img1.jpg')})`}"
@@ -16,7 +16,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 La meteorología es una ciencia esencial para comprender y predecir las condiciones atmosféricas a corto plazo. Proporciona información vital para una amplia gama de aplicaciones, desde la toma de decisiones cotidianas, como la elección de la ropa adecuada o la planificación de actividades al aire libre, hasta cuestiones más críticas, como la gestión de desastres naturales y la aviación.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left") 
         p Los meteorólogos utilizan datos sobre la temperatura, la humedad, la presión atmosférica, la velocidad y la dirección del viento, y otros parámetros para analizar y pronosticar el tiempo. Esta información ayuda a prever fenómenos como lluvias, tormentas, nevadas, vientos fuertes y otras condiciones climáticas que pueden afectar a las comunidades y al medio ambiente. Los fenómenos meteorológicos más comunes son:
     .tarjeta.tarjeta--amarilla.p-4.mb-4(style="background-color:#EEFFDE")
       SlyderA(tipo="b")(data-aos="flip-right")
@@ -111,10 +111,10 @@
             figure
               img(src='@/assets/curso/temas/tema4/img11.jpg', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left") 
         p La meteorología desempeña un papel crucial en una variedad de campos y es fundamental para la toma de decisiones en muchas áreas de la sociedad. Los equipos y dispositivos utilizados en las estaciones meteorológicas permiten medir y registrar una serie de parámetros ambientales, lo que proporciona datos esenciales para la comprensión y predicción del tiempo y del clima. Los equipos utilizados para evaluar parámetros ambientales en las estaciones meteorológicas son:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left") 
         .cajon.color-secundario.p-4.mb-4
           ul.lista-ul
             li 
@@ -139,7 +139,7 @@
               i.lista-ul__vineta
               | #[b Heliógrafo:] registra la cantidad de energía solar que impacta la superficie de la tierra.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left") 
         p El estudio de la meteorología es importante porque permite generar alertas tempranas y pronósticos climáticos que permiten la preparación y protección ante condiciones climáticas extremas. Además, influye en sectores clave como la agricultura, la aviación, la planificación urbana, la gestión de la energía y la investigación del cambio climático. Su capacidad para brindar información precisa y oportuna es esencial en la toma de decisiones cotidianas y la adaptación a un mundo en constante cambio debido al impacto del cambio climático.
 </template>
 

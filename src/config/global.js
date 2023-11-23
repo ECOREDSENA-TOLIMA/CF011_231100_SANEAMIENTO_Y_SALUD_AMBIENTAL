@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Contaminantes atmosféricos y monitoreo de la calidad de aire',
     descripcionCurso:
-      'Con el avance del presente Componente Formativo el aprendiz tendrá los conocimientos básicos para identificar las fuentes de contaminación atmosférica, que es, para que sirve y cómo se realiza el monitoreo de calidad de aire, los equipos y procedimientos empleados acorde a la normatividad vigente.',
+      'Con el avance del presente Componente Formativo, el aprendiz tendrá los conocimientos básicos para identificar las fuentes de contaminación atmosférica, que es, para qué sirve y cómo se realiza el monitoreo de calidad de aire, los equipos y procedimientos empleados acorde a la normatividad vigente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -299,7 +299,7 @@ export default {
         },
         {
           nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -309,7 +309,7 @@ export default {
       autores: [
         {
           nombre: 'Diana Carolina Sánchez Rodríguez ',
-          cargo: 'Experto temático ',
+          cargo: 'Experto Temático ',
           centro: 'Regional Tolima - Centro Agropecuario La Granja.',
         },
         {
@@ -324,13 +324,13 @@ export default {
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable del equipo de desarrollo curricular ',
+          cargo: 'Responsable del Equipo de Desarrollo Curricular ',
           centro:
             'Regional Santander. Centro Industrial de Diseño y la manufactura.',
         },
         {
           nombre: 'Sandra Patricia Hoyos Seúlveda',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrección de Estilo',
           centro: 'Regional Distrito Capital. Centro de Diseño y Metrología',
         },
         {
@@ -341,7 +341,7 @@ export default {
         },
         {
           nombre: 'Sergio Augusto Ardila Ortiz',
-          cargo: 'Diseñador instruccional',
+          cargo: 'Diseñador Instruccional',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
@@ -376,7 +376,7 @@ export default {
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Produccióon audiovisual',
+          cargo: 'Produccióon Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
@@ -396,12 +396,12 @@ export default {
       autores: [
         {
           nombre: 'Gilberto Naranjo Farfán',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Validación de Contenidos Accesibles',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],

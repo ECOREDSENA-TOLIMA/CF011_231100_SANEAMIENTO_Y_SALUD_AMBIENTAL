@@ -7,7 +7,7 @@
         span 1
       h1 Fuentes de contaminación atmosférica
     
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img1.jpg')})`}"
       )
@@ -15,7 +15,7 @@
         p.mb-0 Las fuentes de contaminación atmosférica son diversos puntos de origen de los contaminantes presentes en la atmósfera, cada uno con características distintivas. Es fundamental que los gobiernos identifiquen estas fuentes para implementar políticas destinadas a mejorar tanto la calidad del aire como la salud pública. Las fuentes de contaminación atmosférica se pueden clasificar en tres categorías principales:
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         .cajon.color-secundario.p-4.mb-4
           ul.lista-ul
             li 
@@ -30,17 +30,17 @@
               i.lista-ul__vineta
               | #[b Mezcla de contaminantes:] este tipo de fuente de contaminación atmosférica se refiere a la combinación y reacción de diferentes contaminantes en la atmósfera, lo que puede dar lugar a nuevos contaminantes o a la intensificación de los efectos adversos para la salud.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-12(data-aos="fade-right")
         p Según sus características pueden ser fuentes naturales o fuentes antropogénicas y de acuerdo con su movimiento pueden ser fuentes fijas o fuentes móviles, como se muestra a continuación:
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.col-md-4.mb-4.mb-md-0
-        .titulo-sexto.color-acento-contenido.offset-1
+    .row.justify-content-center.align-items-center
+      .col-lg-12.col-md-4.mb-md-0(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span  #[i  Imágenes utilizadas por el SGA con indicaciones de peligro]
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.desktop
+      .col-lg-10.desktop(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img2.svg', alt='En la figura 1 se muestran las diferentes fuentes de contaminación y la explicación de cada una de ellas.')
       .col-lg-10.movil
@@ -48,7 +48,7 @@
           img(src='@/assets/curso/temas/tema1/img2_1.svg', alt='En la figura 1 se muestran las diferentes fuentes de contaminación y la explicación de cada una de ellas.')
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p Las actividades humanas son las principales fuentes de contaminación atmosférica en la actualidad. Estas actividades incluyen:
     
     .tarjeta.tarjeta--amarilla.p-4.mb-4(style="background-color:#EEFFDE")
@@ -99,11 +99,11 @@
             figure
               img(src='@/assets/curso/temas/tema1/img7.jpg', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p En cuanto a las fuentes naturales de contaminación atmosférica, estas incluyen:
     
     .row
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img8.svg' alt='AvatarTop')
@@ -111,7 +111,7 @@
             .p-4
               h4 Erupciones volcánicas
               p.text-normal Las erupciones volcánicas liberan grandes cantidades de gases y partículas en la atmósfera, lo que puede tener un impacto significativo en la calidad del aire a nivel regional.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img9.svg' alt='AvatarTop')
@@ -119,7 +119,7 @@
             .p-4
               h4 Polvo del desierto
               p.text-normal Las tormentas de polvo en regiones desérticas pueden transportar partículas finas a largas distancias, lo que afecta la calidad del aire en áreas circundantes.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img10.svg' alt='AvatarTop')
@@ -128,7 +128,7 @@
               h4 Incendios forestales
               p.text-normal Los incendios forestales naturales pueden liberar partículas y gases, incluyendo dióxido de carbono y monóxido de carbono, en la atmósfera.
       
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img11.svg' alt='AvatarTop')
@@ -137,7 +137,7 @@
               h4 Emisiones biogénicas
               p.text-normal Las emisiones naturales de gases como el terpeno de las plantas también pueden contribuir a la formación de partículas y compuestos orgánicos volátiles en la atmósfera.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p Si bien las fuentes naturales pueden tener un impacto significativo, las actividades humanas suelen ser la principal causa de la contaminación del aire en las áreas urbanas y altamente industrializadas. La gestión efectiva de estas fuentes es esencial para reducir la contaminación atmosférica y sus efectos negativos en la salud y el medio ambiente. 
         p Es importante destacar que el ruido y el calor son considerados factores de contaminación ambiental. El ruido, generado por actividades como el tráfico y la industria, puede tener efectos perjudiciales en la calidad de vida de las personas, causando estrés, pérdida de audición y trastornos del sueño. Por otro lado, el calor, relacionado con la "isla de calor urbano," es resultado del aumento de la temperatura en áreas urbanas debido a actividades humanas, lo que puede afectar la calidad del aire, la salud y la eficiencia energética en las ciudades. Ambos aspectos son cruciales en la gestión de la calidad ambiental en entornos urbanos.
     Separador
@@ -146,18 +146,18 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 1.1 Contaminantes atmosféricos
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12(data-aos="fade-right")
         p A toda sustancia introducida generalmente producto de las actividades humanas y cuya presencia puede tener efectos nocivos para la salud o el ambiente, es lo que se conoce como contaminantes atmosféricos.
         p Según la Organización Mundial de la Salud (OMS, 2019) se consideran contaminantes atmosféricos a las siguientes sustancias:
     
     .row.justify-content-center.align-items-center
-      .col-lg-12.col-md-4.mb-4.mb-md-0
+      .col-lg-12.col-md-4.mb-md-0(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1.
           span  #[i  Contaminantes atmosféricos ]
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.desktop
+      .col-lg-12.desktop(data-aos="fade-left")
         .tabla-b
           table(border=1)
             thead(style="background-color:#FFAE7E;")
@@ -263,11 +263,11 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 1.2 Emisión e inmisión
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p Los términos "emisión" e "inmisión" son esenciales en el contexto de la contaminación atmosférica y la calidad del aire, y tienen definiciones específicas:
               
     .row.justify-content-center.align-items-center.mb-5      
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .cajon.color-secundario.p-4.mb-4
           ul.lista-ul
             li 
@@ -278,7 +278,7 @@
               i.lista-ul__vineta
               | #[b Inmisión:] en contraste, la inmisión se refiere a la transferencia de contaminantes atmosféricos desde la atmósfera hacia un receptor o área en particular. Representa la entrada de contaminantes a un área específica, que puede ser una región geográfica o un punto de referencia. En esencia, la inmisión es el proceso opuesto a la emisión, donde los contaminantes se depositan o se transportan hacia un lugar determinado.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p Estos conceptos son fundamentales para comprender cómo los contaminantes se liberan en la atmósfera (emisión) y cómo afectan a las áreas circundantes o receptores (inmisión). El monitoreo de emisiones e inmisiones es crucial para evaluar la calidad del aire, identificar fuentes de contaminación y tomar medidas para mitigar los efectos negativos de la contaminación atmosférica.
 
     Separador
@@ -287,7 +287,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 1.3 Técnicas de control
     
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img12.jpg')})`}"
       )
@@ -326,10 +326,10 @@
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 1.4 Normatividad
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img18.jpg', alt='Imagen decorativa')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         p La implementación de normas y regulaciones es fundamental para la gestión de la calidad del aire y la reducción de la contaminación ambiental. Estas normativas establecen directrices claras y estándares para controlar y monitorear los contaminantes atmosféricos, lo que a su vez contribuye a proteger la salud pública y el medio ambiente. Además, proporcionan un marco legal para las autoridades ambientales y las empresas que deben cumplir con los requisitos para reducir las emisiones contaminantes y mantener la calidad del aire en niveles seguros.
         p En Colombia, al igual que en otros países, las normas y regulaciones ambientales son esenciales para abordar problemas relacionados con la contaminación del aire y el cambio climático. Estas normativas a menudo abordan temas como los límites de emisiones de contaminantes, la calidad del aire, los estándares de seguridad para la industria y las prácticas sostenibles. El cumplimiento de estas regulaciones es crucial para mitigar los impactos negativos en la salud humana y el entorno natural. A continuación, se describen las principales normas para Colombia:
     
@@ -347,7 +347,8 @@
               p.text-small Establece los niveles máximos de emisión permitidos para contaminantes generados por fuentes móviles terrestres, especialmente vehículos. Esta resolución regula los requisitos y certificaciones a los que deben someterse los vehículos, ya sean importados o de fabricación nacional, con el objetivo de controlar y reducir las emisiones de contaminantes. Su finalidad es proteger la calidad del aire y la salud pública al limitar las emisiones de los vehículos terrestres, contribuyendo así a la reducción de la contaminación atmosférica.
           .row(numero="4" titulo="Política para la prevención y control de la contaminación del aire 2010")
             .col-md-12.mb-4.mb-md-0 
-              p.text-small Tiene como objetivo principal mejorar la calidad del aire en el país a corto, mediano y largo plazo, con el propósito de proteger la salud humana y promover el desarrollo sostenible. Esta política se centra en la gestión integral de la calidad del aire, la protección de la salud, la planificación a largo plazo y la cooperación entre diversas entidades gubernamentales y sectores industriales para alcanzar estos objetivos.
+              p.mt-5.text-small.movil(style="display:inline-block") Tiene como objetivo principal mejorar la calidad del aire en el país a corto, mediano y largo plazo, con el propósito de proteger la salud humana y promover el desarrollo sostenible. Esta política se centra en la gestión integral de la calidad del aire, la protección de la salud, la planificación a largo plazo y la cooperación entre diversas entidades gubernamentales y sectores industriales para alcanzar estos objetivos.
+              p.text-small.desktop Tiene como objetivo principal mejorar la calidad del aire en el país a corto, mediano y largo plazo, con el propósito de proteger la salud humana y promover el desarrollo sostenible. Esta política se centra en la gestión integral de la calidad del aire, la protección de la salud, la planificación a largo plazo y la cooperación entre diversas entidades gubernamentales y sectores industriales para alcanzar estos objetivos.
           .row(numero="5" titulo="Resolución 935 de 2011")
             .col-md-12.mb-4.mb-md-0 
               p.text-small Establece métodos a nivel nacional para la evaluación de emisiones contaminantes en fuentes fijas, como instalaciones industriales. Además, determina la cantidad de pruebas o corridas necesarias para llevar a cabo estas evaluaciones. Esta resolución proporciona directrices para garantizar la precisión y coherencia en la medición y el control de las emisiones, lo que es esencial para proteger la calidad del aire y la salud pública.
@@ -360,17 +361,17 @@
       .col-md-4
         figure
           img(src='@/assets/curso/temas/tema1/img17.svg', alt='Imagen decorativa')
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12(data-aos="fade-right")
         p Los niveles permitidos, o niveles máximos permisibles de contaminantes, se refieren a las concentraciones de sustancias contaminantes a las que las personas y el medio ambiente pueden estar expuestas sin que su salud e integridad se vean afectadas negativamente. Valores por encima de estos niveles pueden ser perjudiciales tanto para la salud humana como para el ambiente. La Resolución 2254 de 2017 en Colombia establece estos niveles máximos permisibles para diversos contaminantes atmosféricos, proporcionando pautas claras para la protección de la salud pública y la conservación del medio ambiente. Estos estándares son fundamentales para garantizar un ambiente sano y seguro para la población y minimizar los riesgos asociados con la contaminación del aire, como se muestra en la siguiente tabla:
     
     .row.justify-content-center.align-items-center
-      .col-lg-12.col-md-4.mb-4.mb-md-0
+      .col-lg-12.col-md-4.mb-md-0(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2.
           span  #[i  Niveles máximos permisibles de contaminantes atmosféricos]
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8.desktop
+      .col-lg-8(data-aos="fade-left")
         .tabla-d
           table(border=1)
             thead(style="background-color:#FFAE7E;")
@@ -380,46 +381,46 @@
                 th.text-center Tiempo de exposición
             tbody
             tr
-              td(rowspan="2") PM10
+              td.text-center(rowspan="2") PM10
               td.text-center 50
               td.text-center Anual
             tr 
               td.text-center 100
               td.text-center 24 horas
             tr(style="background-color:#F6F6F6")
-              td(rowspan="2") PM2.5
+              td.text-center(rowspan="2") PM2.5
               td.text-center 25
               td.text-center Anual
             tr(style="background-color:#F6F6F6")
               td.text-center 50
               td.text-center 24 horas
             tr
-              td(rowspan="2") SO2
+              td.text-center(rowspan="2") SO2
               td.text-center 50
               td.text-center Anual
             tr
               td.text-center 100
               td.text-center 24 horas
             tr(style="background-color:#F6F6F6")
-              td(rowspan="2") NO2
+              td.text-center(rowspan="2") NO2
               td.text-center 60
               td.text-center Anual
             tr(style="background-color:#F6F6F6")
               td.text-center 200
               td.text-center 1 hora
             tr
-              td O3
+              td.text-center O3
               td.text-center 100
               td.text-center 8 horas
             tr(style="background-color:#F6F6F6")
-              td(rowspan="2") CO
+              td.text-center(rowspan="2") CO
               td.text-center 5000
               td.text-center 8 horas
             tr(style="background-color:#F6F6F6")              
               td.text-center 35.000
               td.text-center 1 horas
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p El Decreto 1076 de 2015 establece claramente la necesidad de obtener permisos y licencias de la autoridad ambiental competente (en este caso, las Corporaciones Autónomas Regionales) para llevar a cabo ciertas actividades que puedan generar emisiones contaminantes. Estos permisos son esenciales para garantizar que las emisiones se mantengan dentro de los límites permitidos y que se cumplan las regulaciones ambientales.
         p Además, es importante destacar las consecuencias para aquellos que no se adhieren a estas medidas y emiten contaminantes más allá de los límites permitidos. Las sanciones y medidas preventivas, que van desde amonestaciones escritas hasta multas sustanciales y la posibilidad de cierre temporal o definitivo de la actividad, son fundamentales para hacer cumplir las regulaciones ambientales y garantizar la protección del medio ambiente y la salud pública. En el contexto de la regulación de emisiones contaminantes en Colombia, es esencial comprender que:
 
@@ -427,10 +428,10 @@
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
           .row.justify-content-center.align-items-center
-            .col-lg-4 
+            .col-lg-4(data-aos="fade-left") 
               figure
                 img(src='@/assets/curso/temas/tema1/img19_1.jpg', alt='Imagen decorativa')
-            .col-lg-7
+            .col-lg-7(data-aos="fade-right")
                 ul.lista-ul
                   li 
                     i.lista-ul__vineta
@@ -446,10 +447,10 @@
                     | #[b Objetivo de protección ambiental:] la finalidad de estas regulaciones es proteger el medio ambiente y la salud pública. La emisión descontrolada de contaminantes atmosféricos puede tener graves consecuencias en términos de calidad del aire y salud de la población, por lo que es esencial establecer estándares y aplicar medidas para minimizar estos riesgos.
       
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p Estos permisos son esenciales para que tanto personas naturales como jurídicas puedan llevar a cabo actividades, obras y servicios, ya sean de carácter público o privado, sin sobrepasar los límites permitidos de emisiones contaminantes. Las actividades que requieren de estos permisos incluyen:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-4
           ul.lista-ul
             li 
@@ -492,17 +493,17 @@
               i.lista-ul__vineta
               | Actividades generadoras de olores ofensivos.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p Por otro lado, existen actividades prohibidas para las cuales no se pueden tramitar permisos. Estas actividades incluyen:
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
           .row.justify-content-center.align-items-center.mb-5
-            .col-lg-5
+            .col-lg-5(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/temas/tema1/img20_1.jpg', alt='Imagen decorativa')
-            .col-lg-7        
+            .col-lg-7(data-aos="fade-right")
               ul.lista-ul
                 li 
                   i.lista-ul__vineta
@@ -517,7 +518,7 @@
                   i.lista-ul__vineta
                   | Canteras y plantas trituradoras de materiales de construcción.      
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p Quienes no cumplan con las medidas y emitan emisiones que superen los límites permitidos, sin contar con el respectivo permiso, estarán sujetos a medidas preventivas que incluyen amonestaciones escritas. Además, si se comprueba daño o peligro para los recursos naturales o la salud humana, o si la actividad se inicia sin el permiso requerido, se puede llegar a la suspensión de la actividad. En tales casos, se inicia un proceso sancionatorio ambiental que implica la imposición de sanciones, como multas diarias de hasta cinco mil (5.000) salarios mínimos mensuales legales vigentes, cierre temporal o definitivo del establecimiento, revocatoria o caducidad de la licencia ambiental, autorización, concesión, permiso o registro, demolición de obra a costa del infractor y trabajo comunitario.
 </template>
 

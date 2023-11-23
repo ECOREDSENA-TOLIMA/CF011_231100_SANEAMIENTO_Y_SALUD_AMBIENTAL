@@ -7,7 +7,7 @@
         span 6
       h1 Presentación de resultados e informe
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10      
+      .col-lg-10(data-aos="fade-left") 
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema6/img1.jpg')})`}"
@@ -18,49 +18,49 @@
       .col-lg-12      
         LineaTiempoE.color-acento-contenido.mb-5
           .row(titulo="1" subtitulo="")
-            .col-lg-2.mb-4.mb-lg-0
+            .col-lg-2.mb-4.mb-lg-0(data-aos="fade-left") 
               figure
                 img(src='@/assets/curso/temas/tema6/img2.svg', alt='')
-            .col-lg-10.mb-4.mb-lg-0
+            .col-lg-10.mb-4.mb-lg-0(data-aos="fade-left") 
               h3 Introducción
               p Esta sección debe proporcionar una visión general del contexto y la importancia del monitoreo de la calidad del aire. Puede incluir una breve descripción de la ubicación, el propósito del monitoreo y la relevancia para la salud pública y el medio ambiente.
           .row(titulo="2" subtitulo="")
-            .col-lg-2.mb-4.mb-lg-0
+            .col-lg-2.mb-4.mb-lg-0(data-aos="fade-left") 
               figure
                 img(src='@/assets/curso/temas/tema6/img3.svg', alt='')
-            .col-lg-10.mb-4.mb-lg-0
+            .col-lg-10.mb-4.mb-lg-0(data-aos="fade-left") 
               h3 Objetivos
               p Aquí se detallan los objetivos específicos del monitoreo, es decir, lo que se buscaba lograr con las actividades de monitoreo. Esto puede incluir identificar fuentes de emisiones, evaluar el cumplimiento de normativas o medir el impacto en la salud pública.
           .row(titulo="3" subtitulo="")
-            .col-lg-2.mb-4.mb-lg-0
+            .col-lg-2.mb-4.mb-lg-0(data-aos="fade-left") 
               figure
                 img(src='@/assets/curso/temas/tema6/img4.svg', alt='')
-            .col-lg-10.mb-4.mb-lg-0
+            .col-lg-10.mb-4.mb-lg-0(data-aos="fade-left") 
               h3 Normatividad
               p Esta sección debe proporcionar información sobre las regulaciones y estándares aplicables en el área de monitoreo. Esto ayuda a contextualizar los resultados y evaluar el cumplimiento con las leyes ambientales.
           .row(titulo="4" subtitulo="")
-            .col-lg-2.mb-4.mb-lg-0
+            .col-lg-2.mb-4.mb-lg-0(data-aos="fade-left") 
               figure
                 img(src='@/assets/curso/temas/tema6/img5.svg', alt='')
-            .col-lg-10.mb-4.mb-lg-0
+            .col-lg-10.mb-4.mb-lg-0(data-aos="fade-left") 
               h3 Metodología
               p Aquí se detalla cómo se realizó el monitoreo, incluyendo la descripción de los equipos utilizados, la ubicación de los puntos de muestreo, la frecuencia de las mediciones y cualquier método específico utilizado para el análisis de muestras.
           .row(titulo="5" subtitulo="")
-            .col-lg-2.mb-4.mb-lg-0
+            .col-lg-2.mb-4.mb-lg-0(data-aos="fade-left") 
               figure
                 img(src='@/assets/curso/temas/tema6/img6.svg', alt='')
-            .col-lg-10.mb-4.mb-lg-0
+            .col-lg-10.mb-4.mb-lg-0(data-aos="fade-left") 
               h3 Resultados
               p Esta sección es el núcleo del informe y debe presentar los datos recopilados de manera clara y organizada. Los resultados pueden incluir concentraciones de contaminantes, tendencias a lo largo del tiempo, identificación de fuentes y cualquier otro hallazgo relevante. Los resultados se pueden presentar en tablas, gráficos y, en su caso, mapas.
           .row(titulo="6" subtitulo="")
-            .col-lg-2.mb-4.mb-lg-0
+            .col-lg-2.mb-4.mb-lg-0(data-aos="fade-left") 
               figure
                 img(src='@/assets/curso/temas/tema6/img7.svg', alt='')
-            .col-lg-10.mb-4.mb-lg-0
+            .col-lg-10.mb-4.mb-lg-0(data-aos="fade-left") 
               h3 Conclusiones y recomendaciones
               p Aquí se resumen las conclusiones clave derivadas de los resultados. Se debe evaluar si se cumplieron los objetivos del monitoreo y cómo los datos pueden influir en las decisiones y acciones futuras. Además, se pueden ofrecer recomendaciones para abordar problemas o mejorar la calidad del aire si es necesario.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left") 
         p Es importante que el informe sea claro, conciso y esté respaldado por datos sólidos. Además, debe estar redactado de manera que sea accesible para una audiencia no técnica, ya que los informes de calidad de aire a menudo se utilizan para informar al público en general, a las autoridades ambientales y a otros interesados. Otro aspecto a tener en cuenta, es que las regulaciones y pautas específicas pueden variar según la jurisdicción y la naturaleza del monitoreo, por lo que es esencial cumplir con los requisitos normativos locales al elaborar el informe.
 </template>
 

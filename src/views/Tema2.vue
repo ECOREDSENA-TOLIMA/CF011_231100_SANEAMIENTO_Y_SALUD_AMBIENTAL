@@ -7,7 +7,7 @@
         span 2
       h1 Monitoreo de la calidad de aire
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img1.jpg')})`}"
@@ -15,10 +15,10 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 El monitoreo de la calidad del aire desempeña un papel esencial en la gestión ambiental y la toma de decisiones. Permite recopilar información valiosa para analizar, interpretar y presentar resultados, lo que, a su vez, facilita la corrección de procesos y la reprogramación de actividades. Este proceso continuo tiene varios propósitos, entre ellos:
     .row.justify-content-center.align-items-center.mb-5.mt-5
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imagen decorativa')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         ul.lista-ul
           li 
             i.lista-ul__vineta
@@ -40,7 +40,7 @@
             | Supervisar el cumplimiento de las normas de calidad del aire.
           li 
             i.lista-ul__vineta
-            | Establecer sistemas de alerta para smog fotoquímico.
+            | Establecer sistemas de alerta para #[i smog] fotoquímico.
           li 
             i.lista-ul__vineta
             | Contribuir a la planificación, diseño e implementación de políticas públicas.
@@ -55,7 +55,7 @@
             | Evaluar la efectividad de las medidas de control implementadas en una región específica.
       
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p De acuerdo con el protocolo para el monitoreo y seguimiento de la calidad del aire (MAVDT, 2008), se utilizan varios instrumentos para llevar a cabo el monitoreo.
     Separador
     .row
@@ -63,14 +63,14 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 2.1 Monitoreo manual
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p Es realizado mediante equipos que recolectan muestra en el sitio para luego ser llevadas y analizadas en el laboratorio y verificar la presencia del contaminante estudiado.
         p El procedimiento en el monitoreo manual es el siguiente:
     
     SlyderB.color-acento-botones.mb-5.p-5(:datos="datosSlyderEjemplo")(style="background-color:#EEFFDE")
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p El monitoreo manual es una herramienta valiosa para evaluar la calidad del aire y la presencia de contaminantes específicos en áreas de interés. Proporciona datos precisos y detallados que son fundamentales para la protección de la salud pública y el medio ambiente.
     
     Separador
@@ -79,10 +79,10 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 2.2 Monitoreo automático
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p El monitoreo automático de la calidad del aire es un proceso altamente eficiente que utiliza equipos y sistemas automáticos para tomar muestras y analizar la calidad del aire en el lugar de muestreo, eliminando la necesidad de enviar muestras a un laboratorio. Aquí se resumen los puntos clave de esta metodología:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema2/img19.svg' alt='AvatarTop')
@@ -93,7 +93,7 @@
                 li
                   span.text-bold a) Toma de información automatizada:
                   | el proceso de monitoreo automático utiliza equipos y sistemas automáticos para recopilar datos en tiempo real en el sitio de muestreo. Estos equipos pueden medir una variedad de contaminantes atmosféricos, como material particulado, óxidos de azufre, óxidos de nitrógeno, ozono, monóxido de carbono, hidrocarburos metánicos y no metánicos.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema2/img20.svg' alt='AvatarTop')
@@ -104,7 +104,7 @@
                 li
                   span.text-bold b)	Análisis in #[i situ]:
                   | la ventaja principal del monitoreo automático es que los instrumentos pueden analizar directamente las muestras en el lugar de muestreo, lo que elimina la necesidad de enviar muestras a un laboratorio y reduce significativamente el tiempo necesario para obtener resultados.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema2/img21.svg' alt='AvatarTop')
@@ -113,9 +113,9 @@
             .p-4
               ol.lista-ol.lista-ol--separador
                 li
-                  span.text-bold c)	Procesamiento de información y reporte
+                  span.text-bold c)	Procesamiento de información y reporte:
                   | después de recopilar los datos, se realiza el procesamiento de la información de manera automática. Esto incluye la calibración y aseguramiento de la calidad de los datos. Los resultados se generan en tiempo real y se pueden informar de manera instantánea.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema2/img22.svg' alt='AvatarTop')
@@ -127,22 +127,21 @@
                   span.text-bold d)	Mantenimiento preventivo y correctivo:
                   | a pesar de su automatización, los equipos de monitoreo automático requieren un mantenimiento regular para garantizar que funcionen correctamente. Esto incluye tareas de mantenimiento preventivo y, en caso de fallas, mantenimiento correctivo.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p El monitoreo automático ofrece una ventaja significativa en términos de rapidez y eficiencia, lo que lo convierte en una herramienta valiosa para el seguimiento continuo de la calidad del aire. Además, contribuye a la toma de decisiones más ágiles en la gestión de la calidad del aire y en la aplicación de políticas públicas.
 
     Separador
     .row
       .col-xl-12       
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 2.3 Monitoreo híbrido
-    
+      h2.my-5 2.3 Monitoreo híbrido    
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p El monitoreo híbrido combina aspectos positivos tanto de los equipos manuales como de los automáticos, lo que resulta en una optimización de costos y una mejora en los tiempos de generación de resultados. Sin embargo, también conlleva algunas desventajas, como la necesidad de contar con un mayor número de operadores, quienes deben recibir una capacitación más exhaustiva para realizar este tipo de monitoreo de manera efectiva.
         p En cuanto al tipo de fuente que se evaluará, el monitoreo puede ser:
     
-    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta-gris")
+    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta-gris")(data-aos="fade-left")
       .row(titulo="Monitoreo de fuentes fijas")
         .col-md-12.mb-4.mb-md-0
           p El Instituto de Hidrología, Meteorología y Estudios Ambientales (IDEAM) ha establecido métodos específicos para la evaluación de fuentes fijas en el monitoreo de contaminantes atmosféricos. Estos métodos son fundamentales para garantizar mediciones precisas y confiables. A continuación, se describen los métodos y su finalidad:
@@ -200,17 +199,17 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 2.4 Muestreo isocinético
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12(data-aos="fade-left")
         p El muestreo isocinético es una técnica que se utiliza para recolectar muestras de contaminantes emitidos por fuentes fijas, como chimeneas industriales. Lo que lo hace especial es que se toma la muestra a la misma velocidad y en las mismas condiciones en que los contaminantes son liberados de la fuente, sin alterar el flujo de gases o partículas en la corriente de aire. Esta técnica es particularmente útil para determinar la concentración de material particulado, lo que significa que se enfoca en medir las partículas sólidas suspendidas en el aire.
         p Al mantener la misma velocidad y condiciones, el muestreo isocinético proporciona una representación precisa de la cantidad de contaminantes en la corriente de aire tal como se emiten normalmente. Esto es fundamental para evaluar el cumplimiento de las regulaciones ambientales y determinar si una fuente de emisión cumple con los límites permisibles de emisión de material particulado.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.col-md-4.mb-4.mb-md-0
+    .row.justify-content-center.align-items-center
+      .col-lg-10.col-md-4.mb-md-0(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
           span  #[i Explicación de la palabra isocinético]
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.desktop
+      .col-lg-10.desktop(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema2/img23.svg', alt='En la figura 2, se muestra la explicación de los componentes de la palabra isocinético, iso que significa igual y cinético que hace referencia al movimiento.')
       .col-lg-10.movil
@@ -218,10 +217,10 @@
           img(src='@/assets/curso/temas/tema2/img23_1.svg', alt='En la figura 2, se muestra la explicación de los componentes de la palabra isocinético, iso que significa igual y cinético que hace referencia al movimiento.')
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-      p El proceso de muestreo isocinético para la determinación de material particulado en fuentes fijas implica los siguientes pasos:
+      .col-lg-12(data-aos="fade-left")
+        p El proceso de muestreo isocinético para la determinación de material particulado en fuentes fijas implica los siguientes pasos:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         .cajon.color-secundario.p-4.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-5
@@ -240,7 +239,7 @@
                   | el filtro con el material particulado se pesa antes y después de la colección. La diferencia de peso entre el filtro limpio y el filtro con el material capturado se utiliza para calcular la cantidad de material particulado presente en la muestra. Esta es una técnica de análisis gravimétrico que permite cuantificar la concentración de material particulado en la fuente de emisión.
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p En resumen, el muestreo isocinético es un método preciso para la recolección de material particulado en fuentes fijas, y la gravimetría se utiliza para determinar cuánto material particulado se emite de la fuente. Este proceso es esencial para evaluar y controlar las emisiones de partículas sólidas o líquidas en el aire y garantizar que cumplan con las regulaciones ambientales.
 
     Separador
@@ -249,7 +248,7 @@
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 2.5 Analizador de gases y olores
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p El analizador de gases y olores, también conocido como analizador de gases de emisión, es un equipo utilizado para medir la concentración de diferentes gases generados durante la combustión. Este dispositivo es ampliamente utilizado en diversas aplicaciones para monitorear y controlar las emisiones de gases en entornos industriales y ambientales. Algunas de las medidas que se pueden realizar con un analizador de gases de emisión incluyen:
     
     .tarjeta.tarjeta--amarilla.p-4.mb-4(style="background-color:#EEFFDE")
@@ -300,7 +299,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img17.jpg', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         P Los analizadores de gases y olores son herramientas fundamentales en la medición y el control de emisiones de gases en diversas aplicaciones, desde la industria hasta la gestión ambiental y la seguridad laboral. Proporcionan datos precisos que son esenciales para garantizar el cumplimiento de regulaciones y mejorar la calidad del aire y la seguridad en el trabajo.
     Separador
     .row
@@ -308,10 +307,10 @@
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 2.6 Tren de muestreo
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         P Es un sistema diseñado para captar gases contaminantes utilizando una solución química absorbente. El proceso de muestreo se realiza de la siguiente manera:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .cajon.color-primario.p-4.mb-4
           ol.lista-ol
             li
@@ -321,7 +320,7 @@
               span.text-bold b)	Sonda:
               | es una parte importante que recoge el aire contaminado y lo dirige hacia el tren de muestreo.
             li
-              span.text-bold c)	Tubo #[i pitot]:
+              span.text-bold c)	Tubo Pitot:
               | se utiliza para medir la velocidad del flujo de aire, lo que es esencial para una toma de muestra precisa.
             li
               span.text-bold d)	Manómetro:
@@ -339,7 +338,7 @@
               span.text-bold h) Sistema de medición:
               | este componente es responsable de la medición de la concentración de gases contaminantes en la muestra.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img18.jpg')})`}"
@@ -353,10 +352,10 @@
     #t_2_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 2.7 Estimación de emisiones
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         p La estimación de emisiones atmosféricas es un proceso fundamental que involucra la cuantificación de la cantidad de contaminantes liberados en la atmósfera debido a actividades tanto naturales como humanas. Tanto el sector público como el privado pueden beneficiarse de este proceso:
     .row
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
@@ -365,7 +364,7 @@
               .col-lg-12
                 h3(style="color:#264100").mt-2 a)	Sector público
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-left")
         ul.lista-ul
           li 
             i.lista-ul__vineta
@@ -387,7 +386,7 @@
             i.lista-ul__vineta
             | #[b Identificación de fuentes y sectores económicos:] permite identificar las fuentes y sectores económicos que contribuyen de manera significativa a las emisiones, lo que facilita la toma de medidas de control.
     .row
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
@@ -396,7 +395,7 @@
               .col-lg-12
                 h3(style="color:#264100").mt-2 b)	Sector privado
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         ul.lista-ul
           li 
             i.lista-ul__vineta
@@ -419,7 +418,7 @@
             i.lista-ul__vineta
             | #[b Métodos indirectos:] estos métodos se basan en información general sobre procesos o equipos, utilizando factores de emisión y balances de masa para estimar las emisiones.
         p La estimación de emisiones es esencial para el desarrollo de políticas ambientales, el control de la contaminación y el cumplimiento de regulaciones, tanto para el sector público como el privado. Permite tomar decisiones informadas y aplicar medidas efectivas para reducir la contaminación atmosférica y proteger la salud pública.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img26.jpg', alt='')        
 </template>

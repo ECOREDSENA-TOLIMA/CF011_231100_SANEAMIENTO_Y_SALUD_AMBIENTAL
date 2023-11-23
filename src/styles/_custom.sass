@@ -260,7 +260,6 @@
   fa
     color: white
 
-
 .slyder__btn
   background-color: #7816c2
   color:#FFFFFF
@@ -288,6 +287,8 @@
     display: inline
   .desktop 
     display: none
+  .slyder-a__bullets
+    display: none !important
   
 ///// Custom acordeon A tipo A -------------------------------------- 
 
@@ -340,3 +341,52 @@
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #7816C2
   color: white
+
+.img-t
+  width: 50%!important
+  height: auto !important
+  margin: auto
+
+@media only screen and (width: 768px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+  .img-t
+    width: auto !important
+    height: auto !important
+
+  .bg--gradientBlue, .slyder-b__slyde
+    .row
+      margin-right: 5rem !important
+      width: 80% 
+
+@media only screen and (min-width: 390px) and (max-width: 391px)
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+  .img-t
+    width: auto !important
+    height: auto !important
+  
+  .slyder-a__bullets
+    display: none !important
+
+  .bg--gradientBlue, .slyder-b__slyde
+    .row
+      margin-right: 5rem !important
+      width: 80%
+
+@media only screen and (width: 768px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+@media only screen and (min-width: 390px) and (max-width: 391px)
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+  .img-t
+    width: auto !important
+    height: auto !important
+  .slyder-a__bullets
+    display: none !important
+  
