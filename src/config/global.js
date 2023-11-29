@@ -355,7 +355,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Yobani Penagos Mora',
+          nombre: 'Aruzidna Sánchez Alonso',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
@@ -376,7 +376,7 @@ export default {
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Produccióon Audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
